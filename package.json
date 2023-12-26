@@ -1,5 +1,5 @@
 {
-  "name": "stylelint",
+  "name": "tripleten-stylelint",
   "version": "16.1.0",
   "description": "A mighty CSS linter that helps you avoid errors and enforce conventions.",
   "keywords": [
@@ -15,7 +15,10 @@
     "sugarss"
   ],
   "homepage": "https://stylelint.io",
-  "repository": "stylelint/stylelint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tripleten-com/tripleten-stylelint.git"
+  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stylelint"
