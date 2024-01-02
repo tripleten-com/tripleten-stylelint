@@ -34,7 +34,7 @@ const meta = {
   url: "https://github.com/foo-org/stylelint-selector-no-foo/blob/main/README.md"
 };
 
-/** @type {import('stylelint').Rule} */
+/** @type {import('tripleten-stylelint').Rule} */
 const ruleFunction = (primary, secondaryOptions, context) => {
   return (root, result) => {
     const validOptions = validateOptions(result, ruleName, {

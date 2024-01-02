@@ -15,10 +15,10 @@ import type {
 	RuleBase,
 	RuleMeta,
 	Warning,
-} from 'stylelint';
-import stylelint = require('stylelint');
+} from 'tripleten-stylelint';
+import stylelint = require('tripleten-stylelint');
 
-import('stylelint').then((module) => {
+import('tripleten-stylelint').then((module) => {
 	module.default({
 		code: '',
 		codeFilename: '',

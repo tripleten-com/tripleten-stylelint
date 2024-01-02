@@ -14,7 +14,7 @@ Stylelint expects a configuration object, and looks for one in a:
 ES module example:
 
 ```js
-/** @type {import('stylelint').Config} */
+/** @type {import('tripleten-stylelint').Config} */
 export default {
   rules: {
     "block-no-empty": true
